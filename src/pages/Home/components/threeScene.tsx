@@ -203,7 +203,7 @@ const ThreeScene: React.FC = () => {
 
       // 将鼠标位置归一化到设备坐标 (-1到1)
       const rect = mount.getBoundingClientRect();
-      console.log('rect', rect);
+    //   console.log('rect', rect);
       mouseRef.current.x =
         ((event.clientX - rect.left) / mount.clientWidth) * 2 - 1;
       mouseRef.current.y =
